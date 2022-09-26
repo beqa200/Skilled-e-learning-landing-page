@@ -1,0 +1,330 @@
+@font-face {
+  font-family: jakartaExtra;
+  src: url("./fonts/PlusJakartaSans-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: jakartaBold;
+  src: url("./fonts/PlusJakartaSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: jakartaMedium;
+  src: url("./fonts/PlusJakartaSans-Medium.ttf");
+}
+
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 100vw;
+  background-color: #f0f1ff;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-family: jakartaExtra;
+  font-size: 32px;
+  line-height: 45px;
+  line-height: 100%;
+  color: #13183f;
+  font-weight: 900px;
+  width: 89;
+  margin-left: 16px;
+}
+
+header button {
+  height: 56px;
+  width: 160px;
+  border-radius: 28px;
+  font-family: jakartaBold;
+  font-style: bold;
+  font-size: 18px;
+  color: white;
+  background-color: #13183f;
+  border: 0px;
+  margin-right: 16px;
+}
+
+header button:hover {
+  cursor: pointer;
+  background-color: #666ca3;
+  border-color: #666ca3;
+  opacity: 0.8;
+}
+
+#div1 {
+  width: 100%;
+  height: 100%;
+  margin-top: 35px;
+  margin-left: 16px;
+}
+
+#div1 h1 {
+  font-family: jakartaExtra;
+  font-size: 40px;
+  line-height: 71px;
+  line-height: 100%;
+  color: #13183f;
+}
+
+#div1 p {
+  font-family: jakartaMedium;
+  font-size: 16px;
+  line-height: 28px;
+  line-height: 123%;
+  color: #83869a;
+  width: 90%;
+  margin-top: 26px;
+}
+#div1 button {
+  width: 167px;
+  height: 56px;
+  border-radius: 31px;
+  background-image: linear-gradient(#ff6f48 0%, #f02aa6 100%);
+  border-width: 0px;
+  font-family: jakartaMedium;
+  font-size: 18px;
+  line-height: 28px;
+  line-height: 123%;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+#div1 button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#div1 img {
+  margin-top: 46px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 2100px;
+  align-items: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#first h1 {
+  font-family: jakartaExtra;
+  font-size: 24px;
+  line-height: 40px;
+  line-height: 99%;
+  margin-left: 32px;
+  margin-right: 5px;
+}
+
+#main #first {
+  background-image: linear-gradient(#ff6f48 0%, #f02aa6 100%);
+  width: 93%;
+  height: 180px;
+}
+
+#main #first h1 {
+  font-family: jakartaBold;
+  font-style: ExtraBold;
+  font-size: 32px;
+  line-height: 40px;
+  line-height: 99%;
+  color: #ffffff;
+  margin-top: 64px;
+}
+
+#main div {
+  width: 93%;
+  max-height: 312px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+#main h2 {
+  padding-top: 15px;
+  font-family: jakartaExtra;
+  font-size: 24px;
+  line-height: 30px;
+  color: #13183f;
+  margin-left: 32px;
+}
+
+#main .p1 {
+  font-family: jakartaMedium;
+  font-size: 18px;
+  line-height: 28px;
+  line-height: 123%;
+  color: #83869a;
+  margin-left: 32px;
+  margin-right: 10px;
+  max-height: 100%;
+}
+
+#main .p2 {
+  margin-left: 32px;
+  font-family: jakartaBold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  cursor: pointer;
+  background-color: white;
+  border: 0px;
+  width: 105px;
+  height: 22px;
+}
+
+#main img {
+  margin-top: -28px;
+  margin-left: 32px;
+}
+
+#main .p2:hover {
+  color: #ffa7c3;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #13183f;
+  margin-bottom: -20px;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px;
+}
+
+footer h2 {
+  margin-left: 20px;
+  font-family: jakartaExtra;
+  font-size: 25px;
+  line-height: 45px;
+  line-height: 100%;
+  color: white;
+  font-weight: 900px;
+}
+
+footer button {
+  height: 56px;
+  width: 167px;
+  border-radius: 28px;
+  font-family: jakartaBold;
+  font-style: bold;
+  font-size: 18px;
+  color: white;
+  background-image: linear-Gradient(#4851ff 0%, #f02aa6 100%);
+  border: 0px;
+  margin-right: 16px;
+}
+
+footer button:hover {
+  cursor: pointer;
+  background-color: #666ca3;
+  border-color: #666ca3;
+  opacity: 0.4;
+}
+
+@media screen and (min-width: 650px) {
+  #div1 img {
+    display: none;
+  }
+
+  body {
+    background-image: url("./images/image-hero-desktop.png");
+    background-size: 680px;
+    background-repeat: no-repeat;
+    background-position: right -270px top -70px;
+  }
+
+  #div1 {
+    max-width: 330px;
+    margin-top: 100px;
+  }
+
+  #main {
+    margin-top: 200px;
+    justify-content: start;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 1000px;
+  }
+
+  #main div {
+    max-width: 40%;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  #main div .p1 {
+    min-height: 132px;
+  }
+  #main #first {
+    height: 312px;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  body {
+    background-size: 1000px;
+    background-position: right -280px top -120px;
+  }
+  header h2,
+  header button,
+  #div1 {
+    margin-left: 165px;
+    margin-right: 165px;
+  }
+
+  #div1 {
+    margin-top: 220px;
+    max-width: 500px;
+  }
+  #div1 h1 {
+    font-size: 60px;
+  }
+
+  #div1 p {
+    font-size: 22px;
+  }
+
+  #main #first {
+    margin-left: 0px;
+    width: 30%;
+  }
+  #main div {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 30%;
+  }
+
+  #main {
+    margin-left: 165px;
+    width: 77%;
+    height: 800px;
+    align-content: space-around;
+    margin-top: 110px;
+  }
+
+  footer h2 {
+    margin-left: 165px;
+  }
+
+  footer button {
+    margin-right: 165px;
+  }
+}
